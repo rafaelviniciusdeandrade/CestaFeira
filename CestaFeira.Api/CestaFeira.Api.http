@@ -1,0 +1,6 @@
+@CestaFeira.Api_HostAddress = http://localhost:5254
+
+GET {{CestaFeira.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="CommandHandler\Base\" />
+    <Folder Include="CommandHandler\Lista\" />
+    <Folder Include="CommandHandler\ListaTarefas\" />
+    <Folder Include="CommandHandler\Usuario\" />
+    <Folder Include="Command\Base\" />
+    <Folder Include="Command\Lista\" />
+    <Folder Include="Command\ListaTarefas\" />
+    <Folder Include="Command\Usuario\" />
+    <Folder Include="Dtos\AppSettings\" />
+    <Folder Include="Dtos\Comum\Lista\" />
+    <Folder Include="Dtos\Comum\Login\" />
+    <Folder Include="Dtos\Comum\Usuario\" />
+    <Folder Include="Entities\Base\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Interfaces\DataModule\" />
+    <Folder Include="Interfaces\Repository\" />
+    <Folder Include="QueryHandler\Base\" />
+    <Folder Include="QueryHandler\Lista\" />
+    <Folder Include="Query\Base\" />
+    <Folder Include="Query\Lista\" />
+    <Folder Include="RequestBehavior\" />
+    <Folder Include="Services\CryptographyService\" />
+    <Folder Include="Services\Interfaces\CryptographyService\" />
+    <Folder Include="Services\Interfaces\TokenService\" />
+    <Folder Include="Services\TokenService\" />
+    <Folder Include="Validator\Base\" />
+    <Folder Include="Validator\Lista\" />
+    <Folder Include="Validator\ListaTarefa\" />
+    <Folder Include="Validator\Usuario\" />
+  </ItemGroup>
+
+</Project>
